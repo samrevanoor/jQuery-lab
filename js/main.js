@@ -1,6 +1,6 @@
 function addToDo(evt) {
     if ($("input").val() !== "") {
-        $("ul").append($(`<li><button class="delete">X</button><span>${$("input").val()}</span></li>`));
+        $("ul").append($(`<li><button class="delete">X</button><span class="listItem">${$("input").val()}</span></li>`));
         $("input").val("");
     };
     deleteSkill();
